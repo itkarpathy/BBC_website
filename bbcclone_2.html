@@ -1,0 +1,630 @@
+<html>
+
+<head>
+
+
+
+		<title>Technology - BBC News</title>
+
+		<style type="text/css">
+
+	#topbar {
+	
+					width: 80%;
+					margin:0px auto;
+					background-color: white;
+					height:30px;
+			}
+			
+			
+	.topbar-menu {
+	
+					font-weight: bold;
+					font-size:13px;
+					padding: 12px 20px 0px 15px;
+					height: 15px;
+					color: #333333;
+					border-left: 1px solid #CCCCCC;
+					position:relative;
+					top: 6px,
+				}
+	
+	#more-arrow{
+	
+					width: 15px;
+					margin: -1px  10px 0px 60px;
+
+				}
+	
+	#search-box{
+	
+					height: 24px;
+					background-color:#E4E4E4;
+					border: 1px;
+					font-weight: normal;
+					font-size: 	13px,
+					padding:	 10px;
+					margin: 	8px 0px 0px 20px;
+					float:left;
+				}
+	
+	#magnefying-glass{
+	
+					height: 24px;
+					margin-top: 8px;
+	
+					}
+	
+	
+	body 		{
+	
+					margin: 0;
+					padding: 0;
+					font-family: Helvetia, Arial, freesans, sans-serif;
+				}
+	
+	#signin-image {
+	
+					width: 20px;
+					margin:0px 0px 0px 0px;
+					float: left;
+					border-left: 1px solid #CCCCCC;
+					padding: 11px;
+	
+	}
+	
+	#signin-text {
+	
+					font-weight: bolder;
+					font-size:13px;
+					position: relative;
+					top:13px;
+					color: none;
+					margin-right:100px;
+					font-family: arial;
+	
+	}
+
+	#logo {
+	
+					margin-top: 8px;
+					width:88px;
+					float: left;
+					margin-right: 15px;
+					
+					
+	}
+	
+	.topbar-section {
+		
+					float: left;
+					boarder-left: 2px solid grey;
+					height: 100%;
+
+	}
+	
+	.clear{
+	
+					clear: both;
+	
+	}
+	
+	
+	#menu-bar-container{
+		
+					border-top: 1px solid #CCCCCC;
+					background-color: #BB1919;
+					width: 100%;
+					height: 90px;
+	
+	}
+	
+	#menu-bar{
+	
+					width:1290px;
+					margin: 0 auto;
+	
+	}
+	
+	h1 {
+					padding:5px;
+					margin:0px;
+					color:white;
+					font-size: 40px;
+					font-weight: normal;
+					float:left;
+					padding-top: 10px;
+					
+	
+	
+	}
+	
+	
+	#local-news{
+	
+					 border: 1px #BB4545 solid;
+					 float: right;
+					 width: 180px;
+					 padding: 15px 5px 5px 10px;
+					 margin: 5px 10px 0 0;
+		
+	}
+	
+	#local-news a {
+	
+					color: white;
+					text-decoration:none;
+					font-size: 25px;
+					position:relative;
+					top: -8px;
+	
+	}
+	
+	#local-news a:hover {
+	
+					text-decoration: underline;
+	
+	}
+	
+	#local-news img {
+	
+					height: 40px;
+	
+	
+	}
+	
+	#menu-bar-2-container{
+	
+					background-color: #A91717;
+					width: 100%;
+	
+	
+	}
+	#menu-bar-2 {
+	
+					width: 1290px;
+					margin: 0 auto;
+					height: 35px;
+	
+	}
+	#menu-bar-2 a {
+	
+					color: white;
+					text-decoration: none;
+					margin-top: 5px;
+					padding: 0 10px;
+					border-right: 1px solid #BB4545;
+					position:relative;
+					top: 10px;
+					font-size: 14px;
+	
+	}
+	
+	#menu-bar-2 a:hover {
+	
+					text-decoration: underline;
+	
+	}
+	.no-border {
+					
+					border: none !important;
+				
+	}
+	
+	.no-border:hover {
+		color: #a91717;
+	
+	} 
+	
+	
+	
+	
+	#down-arrow {
+	
+					height: 10px;
+					position:relative;
+					top:10px;
+	}
+	
+	#page-container {
+	
+					width: 1270px;
+					margin: 0 auto;
+	
+	}
+	
+	h2 {
+	
+					font-weight: normal;
+					margin-top: 40px;
+					font-size: 20px;
+					border-bottom: 2px solid #a91717;
+					width: 102px;
+	
+	}
+	
+	h3 a {
+	
+					color: black;
+					font-size: 30px;
+					text-decoration: none;
+		
+	
+	}
+	
+	h3 a:hover {
+	
+					color: #1167a8;
+	
+	}
+	
+	#artical-summary {
+	
+					color: #5a5a5a;
+					width: 220px;
+					float:left;
+	}
+	
+	.clock {
+	
+					position: relative;
+					top:1px;
+					padding-right: 10px;
+	
+	}
+	
+	.topic-link {
+	
+				
+					color:#a91717;
+					padding-left:0px;
+					border-left: 1px solid #CCCCCC;
+					text-decoration: none;
+	}
+	
+	.topic-link-1 {
+					
+					color:#a91717;
+					padding-left:10px;
+					border-left: 1px solid #CCCCCC;
+					text-decoration: none;
+	
+	}
+	
+	
+	
+	
+	#artical-summary a:hover {
+	
+					color: #1167a8;
+	
+	}
+	
+	#artical-container {
+	
+					float:left;
+					width: 780px;
+					border-right: 1px solid #CCCCCC;
+					padding-right: 20px;
+					
+	
+	}
+	
+	.date {
+	
+					border-right: 2px solid #CCCCCC;
+					padding-right: 5px;
+					color: #5a5a5a;
+					
+	}
+	
+	#main-artical-image {
+	
+					width: 500px;
+					margin-left: 20px;
+	
+	}
+	
+	#artical-hr {
+	
+					width: 50px;
+					float:left;
+					border-top: 1px solid #a91717;
+					margin: 0 auto;
+	
+	}
+	
+	.article-link {
+	
+					text-decoration:none;
+					color: black;
+	
+	
+	}
+	
+	#watch-listen {
+	
+					margin-left: 20px;
+					width:400px;
+					float:right;
+					text-decoration: none;
+					
+	
+	}
+	
+	
+	h4 {
+	
+					font-weight: bolder;
+					font-size: 24 px;
+		}
+
+	.article-side-image {
+					float: left;
+					height: 75px;
+					margin-right:10px;
+					
+	
+	}
+	.watch-listen-link {
+					
+					text-decoration: none;
+					font-weight:bold;
+					font-size:18px;
+					color:black;
+	}
+	
+	.watch-listen-link:hover {
+					color: #1167a8;
+	
+	}
+	
+	.side-article {
+					float: right;
+					width: 190px;
+					position: relative;
+					top: -20px;
+	
+	}
+	.no-border {
+					text-decoration: none;
+					
+	}
+	.border-right {
+					border-right: 1px solid #CCCCCC;
+					
+	
+	}
+	
+	
+		</style>
+	
+	</head>	
+	
+	
+<body>
+
+ <div id="topbar">
+ 
+	<img id="logo" src="images/bbclogo.png">
+ 
+	<div id="signin-div" class="topbar-section">
+	
+			<img id="signin-image" src="images/signin.png">
+			
+		<span id="signin-text">Sign in</span>
+		
+		
+	</div>
+		
+	<div class="topbar-section topbar-menu">
+	
+		News
+		
+	</div>
+		
+	<div class="topbar-section topbar-menu">
+	
+		Sport
+		
+	</div>	
+	
+	<div class="topbar-section topbar-menu">
+	
+		Weather
+		
+	</div>
+
+	<div class="topbar-section topbar-menu">
+	
+		Shop
+		
+	</div>
+
+	
+	<div class="topbar-section topbar-menu">
+	
+		Earth
+		
+	</div>
+	
+	<div class="topbar-section topbar-menu">
+	
+		Travel
+		
+	</div>
+	
+	
+	<div class="topbar-section topbar-menu">
+	
+		More
+		
+	<img id="more-arrow" src="images/arrow.png">
+		
+	</div>
+
+	<div class="topbar-section"> 
+	
+		<input id="search-box" type="text" value="Search">
+		
+		<input type="image" id="magnefying-glass" src="images/magnefyglass2.png">
+		</div>
+		
+	</div>
+ 
+ <div class="clear"></div>
+ 
+ <div id="menu-bar-container">
+ 
+ <div id="menu-bar">
+ 
+		<h1>NEWS</h1>
+ 
+		<div id="local-news" >
+	
+		<a href="">Find local news</a>
+	
+	
+		</div>
+	
+		</div>
+		
+		<div class="clear">
+		
+		</div>
+ 
+		<div id="menu-bar-2-container"> 
+		
+		<div id="menu-bar-2">
+		
+		<a href="">Home</a>
+		<a href="">Video</a>
+		<a href="">World</a>
+		<a href="">UK</a>
+		<a href="">Business</a>
+		<a href="">Tech</a>
+		<a href="">Science</a>
+		<a href="">Stories</a>
+		<a href="">Entertainment & Arts</a>
+		<a href="">Health</a>
+		<a href="">World News TV</a>
+		<a href="" class="no-border">More</a>
+		
+		<img id="down-arrow" src="images/down-arrow.png>
+		
+		
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clear">
+		
+		</div>
+	
+	</div>
+	
+	<div id="page-container">
+		
+		<div id="main-artical">
+		
+			<h2>Technology</h2>
+		
+			<div id="artical-container">
+		
+		
+			<h3><a href="">Asda bug exposed payment details</a></h3>
+		
+			<div id="artical-summary">
+		
+			<p>Security vulnerablities that put customers at risk have
+			effected ASDA's website for a couple of years, a security expert has revealed.</p>
+		
+			<p><img class="clock" src="images/clock.png"><span class="date">24 09 2018</span><a class="topic-link-1"><a href="">Technology</a></p>
+		
+			<hr id="artical-hr" align="left">
+			
+			<div class="clear">
+			</div>
+			
+			<p><a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
+			<p><a class="article-link" href="">ebay flaw has existed for month</a></p>
+		
+		</div>
+		
+		<img id="main-artical-image" src="images/asda.jpg">
+		
+		</div>
+	
+		</div>
+		
+		
+	<div id="watch-listen"> 
+	
+		<h4>Watch/Listen</h4>
+				
+		<img class="article-side-image" src="images/listen1.png">
+		
+		<div class="side-article">
+		
+					<p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/uk-politics-45990243">Brexit: French officials dismiss UK fears of Calais 'go-slow'</a></p>
+		
+					<p><img class="clock" src="images/clock.png"><span class="date">26 10 2018</span><br><a class="topic-link no-border"><a href="">Politics</p>
+		
+		</div>
+		
+		<div class="clear">
+		
+		<img class="article-side-image" src="images/listen2.png">
+		
+		<div class="side-article">
+		
+					<p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/uk-england-derbyshire-45988563">Dion Dublin tweets about racial abuse in Chesterfield</a></p>
+		
+					<p><img class="clock" src="images/clock.png"><span class="date border-right">26 10 2018</span><br><a class="topic-link no-border"><a href="">England</p>
+		
+		</div>
+		
+		<div class="clear">
+		
+		<img class="article-side-image" src="images/listen3.png">
+		
+		<div class="side-article">
+		
+					<p><a class="watch-listen-link" href="https://www.bbc.co.uk/news/business-45982750">Four million millennials can get new railcard</a></p>
+		
+					<p><img class="clock" src="images/clock.png"><span class="date">26 10 2018</span><br><a class="topic-link no-border"><a href="">Business</p>
+		
+		</div>
+		
+		<div class="clear">
+ 
+	</div>
+ 
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
