@@ -1,5 +1,5 @@
 # BBC website clone
 
-I builded this clone website that you can see who and what can I do copy of the technics by still days.
+I build this clone website that you can see who and what can I do copy of the technics by still days.
 Just opening the fresh bbc-co-uk website and let see the same point and menu-bar or links over there. 
 Of yourse I could be up dating and adding more comments like article or blog comments.
